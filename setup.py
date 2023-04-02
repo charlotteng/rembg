@@ -46,8 +46,6 @@ setup(
         "pymatting>=1.1.8",
         "python-multipart>=0.0.5",
         "scikit-image>=0.19.3",
-        "scipy>=1.9.3",
-        "tqdm>=4.64.1",
         "uvicorn>=0.20.0",
         "watchdog>=2.1.9",
     ],
