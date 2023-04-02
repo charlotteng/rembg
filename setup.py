@@ -48,6 +48,7 @@ setup(
         "scikit-image>=0.19.3",
         "uvicorn>=0.20.0",
         "watchdog>=2.1.9",
+        "onnxruntime==1.13.1",
     ],
     entry_points={
         "console_scripts": [
