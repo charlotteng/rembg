@@ -37,6 +37,7 @@ setup(
     packages=["rembg"],
     python_requires=">3.7, <3.11",
     install_requires=[
+        "Pillow==9.1.0",
         "asyncer>=0.0.2",
         "click>=8.1.3",
         "fastapi>=0.92.0",
@@ -49,7 +50,6 @@ setup(
         "uvicorn>=0.20.0",
         "watchdog>=2.1.9",
         "onnxruntime==1.13.1",
-        "Pillow==9.1.0",
     ],
     entry_points={
         "console_scripts": [
