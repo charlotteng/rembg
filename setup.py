@@ -49,6 +49,7 @@ setup(
         "uvicorn>=0.20.0",
         "watchdog>=2.1.9",
         "onnxruntime==1.13.1",
+        "Pillow==9.1.0",
     ],
     entry_points={
         "console_scripts": [
